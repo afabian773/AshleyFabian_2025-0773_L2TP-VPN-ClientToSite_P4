@@ -320,17 +320,17 @@ show users
 show ip interface brief | include Virtual-Access
 ```
 
-> 📸 **CAPTURA 15:** Salida de `show vpdn session` mostrando la sesión
+> 📸 **CAPTURA 13:** Salida de `show vpdn session` mostrando la sesión
 > activa de `vpnuser`.
 
 ![](vpdnRLAN.png)
 
-> 📸 **CAPTURA 16:** Salida de `show users` mostrando la interfaz
+> 📸 **CAPTURA 14:** Salida de `show users` mostrando la interfaz
 > `Vi2.1`, usuario `vpnuser` e IP `25.7.73.66`.
 
 ![](shusersRLAN.png)
 
-> 📸 **CAPTURA 17:** Salida de `show ip interface brief | include
+> 📸 **CAPTURA 15:** Salida de `show ip interface brief | include
 > Virtual-Access` con Virtual-Access2 en estado up/up.
 
 ![](briefraln.png)
@@ -341,12 +341,12 @@ ipconfig
 ping 25.7.73.34
 ```
 
-> 📸 **CAPTURA 18:** Salida de `ipconfig` mostrando la IP virtual
+> 📸 **CAPTURA 16:** Salida de `ipconfig` mostrando la IP virtual
 > recibida (25.7.73.66).
 
 ![](ipconfigWindows.png)
 
-> 📸 **CAPTURA 19:** Ping exitoso desde Windows hacia `25.7.73.34`
+> 📸 **CAPTURA 17:** Ping exitoso desde Windows hacia `25.7.73.34`
 > (LAN-Host), confirmando acceso completo a la red protegida a través
 > del túnel.
 
